@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Grid Examples</title>
+</head>
+<body  style="padding-bottom: 1000px;">
+    <div style="
+                display:grid;
+                grid-template-columns:100px 100px 200px;
+                ">
+
+        <div style="background-color:lightblue">
+            DIV 1
+        </div>
+
+        <div style="background-color:lightpink">
+            DIV 2
+        </div>
+
+        <div style="background-color:lightblue">
+            DIV 3
+        </div>
+    </div>
+ <!--2nd div with the grid examples with the paragraphs.-->
+    <div style=     "display:grid;
+                    grid-template-columns:100px 1fr 1fr;
+                    margin-top: 12px;
+                     margin-bottom: 20px;
+                    ">
+
+        <div style="background-color:lightblue">
+            DIV 1
+        </div>
+
+        <div style="background-color:lightpink">
+            DIV 2
+            <p style=   "font-size:13px;
+                        padding:3px;
+                        font-family:arial;
+                        font-weight:500;
+                        font-style:italic">
+
+                This is a paragraph!!!
+            </p>
+        </div>
+
+        <div style="background-color:lightblue">
+            DIV 3
+        </div>
+
+    </div>
+
+    <!--3r div with grid example:-->
+    <div style="
+                display:grid;
+                grid-template-columns:1fr 1fr 1fr;
+                margin-top: 12px;
+                height:400px;
+                margin: 12px;
+                column-gap: 20px;
+                row-gap: 20px;
+                ">
+
+        <div style="background-color:lightblue;
+                    ">
+            DIV 1
+        </div>
+
+        <div style="background-color:lightpink">
+            DIV 2
+        </div>
+
+        <div style="background-color:lightblue">
+            DIV 3
+        </div>
+
+        <div style="background-color:lightpink">
+            DIV 4
+        </div>
+
+        <div style="background-color:lightblue;
+                    ">
+            DIV 1
+        </div>
+
+        <div style="background-color:lightpink">
+            DIV 2
+        </div>
+    </div>
+</body>
+</html>
